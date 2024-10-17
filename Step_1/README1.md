@@ -7,9 +7,9 @@ analysis and manipulation and we will used it to read all the information in a .
 
 Task:
 - use the pandas module to read the .csv file
-- print the DataFrame object to stdout
+- print the DataFrame object created after reading to stdout
 
-Hint. use the "read_csv" pandas method
+Hint: use the "read_csv" pandas method
 
 Checker:
 - in order to check your code run the checker1.py script

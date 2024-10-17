@@ -1,9 +1,9 @@
 import subprocess
 
-cmd_sol = subprocess.run(["python3", "solution1.py"], capture_output=True)
+cmd_sol = subprocess.run(["python3", "solution3.py"], capture_output=True)
 stdout_sol = cmd_sol.stdout.decode()
 
-cmd_task = subprocess.run(["python3", "task1.py"], capture_output=True)
+cmd_task = subprocess.run(["python3", "task3.py"], capture_output=True)
 stdout_task = cmd_task.stdout.decode()
 
 CRED    = '\33[31m'

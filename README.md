@@ -57,3 +57,4 @@ You will find 5 separate folders each for every step in the course. Complete eve
 order. The Step1 to Step4 folders contain all the learning materials necessary to create a bar chart with those
 specifications and the final folder Step5 let you create your own bar chart.
 Every step is covered with tests that help you improve your skills for the given task you need to complete.
+A reference solution is provided for every step also.

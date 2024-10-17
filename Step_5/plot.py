@@ -15,9 +15,13 @@ for row in df.index:
 
 # Create a list of sorted genres.
 order_genre = sorted(df['genre'].unique())
+# Create a list with platforms ordered by your preferencies.
+order_platform = ["PS4", "XOne", "PC", "WiiU"]
 
-# Apply the "order_genre" order to the DataFrame(df).  
+# Apply the "order_genre" order to the DataFrame(df).
 df['genre'] = pd.Categorical(df['genre'], categories=order_genre, ordered=True)
+# Apply the "order_platform" order to the DataFrame(df).
+df['platform'] = pd.Categorical(df['platform'], categories=order_platform, ordered=True)
 
 # Create the countplot where the x axis is the platform and the y axis represents the number of
 # games for every genre. 
