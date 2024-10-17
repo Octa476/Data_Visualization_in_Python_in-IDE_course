@@ -1,6 +1,6 @@
 # Data_Visualization_in_Python_in-IDE_course
 
-In this course you will learn how to create a single bar chart showing the number of games per 4 specific gaming platforms(PS4, XOne, PC and WiiU) by game genre using python3.
+In this course you will learn how to create a single bar chart showing the number of games per 4 specific gaming platforms(PS4, XOne, PC and WiiU) by game genre using python3 and some open-source libraries.
 
 ## The course is structured in 5 parts:
 
@@ -20,7 +20,7 @@ You need to have Python 3.9+ installed on your machine to complete the course.
 If you are not familiar with python3 these are some usefull tips:
 - python is an interpreted language(its code is run at runtime line by line)
 - you can run a python script by typing in the terminal: 
-    On Linux:
+    On Linux/MacOs:
     
     ```bash
     python3 "example.py"
@@ -31,6 +31,7 @@ If you are not familiar with python3 these are some usefull tips:
     ```bash
     python "example.py"
     ```
+Setting the environment:
 
 1. Open your terminal(cmd, bash, etc) and clone the repository:
 
@@ -57,4 +58,5 @@ You will find 5 separate folders each for every step in the course. Complete eve
 order. The Step1 to Step4 folders contain all the learning materials necessary to create a bar chart with those
 specifications and the final folder Step5 let you create your own bar chart.
 Every step is covered with tests that help you improve your skills for the given task you need to complete.
+
 A reference solution is provided for every step also.

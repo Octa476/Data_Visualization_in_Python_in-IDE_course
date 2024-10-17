@@ -1,6 +1,8 @@
+# Reference Solution
+
 import pandas as pd
 
-# Read the gross-domestic-product-june-2024-quarter-visualisation.csv file using pandas.
+# Read the "gross-domestic-product-june-2024-quarter-visualisation.csv" file using pandas.
 df1 = pd.read_csv('gross-domestic-product-june-2024-quarter-visualisation.csv')
 
 df2 = df1
@@ -13,14 +15,14 @@ for row in df1.index:
 print(df1)
 
 df2 = df1
-# Eliminate all the rows from the dataset whose "Weight" is less than 0.01
+# Eliminate all the rows from the dataset whose "Weight" is less than 0.01.
 for row in df2.index:
   if float(df2.loc[row, "Weight"]) < 0.01:
     df2.drop(row, inplace = True)
 
 print(df2)
 
-# Read the serious-injury-outcome-indicators-2000-2022.csv file using pandas.
+# Read the "serious-injury-outcome-indicators-2000-2022.csv" file using pandas.
 df1 = pd.read_csv('serious-injury-outcome-indicators-2000-2022.csv')
 
 df2 = df1
