@@ -10,9 +10,9 @@ You will use some pandas methods and classes to achive the desired order of your
 - this categorise atribute of the field will be usefull when we draw the actual bar plot and will be further explained in the next step
 
 Task:
-- apply the categorise atribute to the given dataset fields
+- apply the category atribute to the given dataset fields
 
 Checker:
 - in order to check your code run the checker3.py script
 
-Hint: Searh how the Categorical class constructor works.
+Hint: Search how the Categorical class constructor works and be aware of NaN values.

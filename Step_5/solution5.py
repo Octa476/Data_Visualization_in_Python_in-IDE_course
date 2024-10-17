@@ -23,9 +23,17 @@ df['genre'] = pd.Categorical(df['genre'], categories=order_genre, ordered=True)
 # Apply the "order_platform" order to the DataFrame(df).
 df['platform'] = pd.Categorical(df['platform'], categories=order_platform, ordered=True)
 
+print(df)
+print(df['genre'].cat.categories)
+print(df['platform'].cat.categories)
+x='platform'
+hue='genre'
+print(x)
+print(hue)
+
 # Create the countplot where the x axis is the platform and the y axis represents the number of
 # games for every genre. 
-sns.countplot(x='platform', hue='genre', data=df, native_scale=True)
+sns.countplot(x=x, hue=hue, data=df, native_scale=True)
 
 # Show the plot.
 plt.show()
